@@ -1,0 +1,53 @@
+﻿.keyword {
+    color : rgb(86,156,214);
+}
+.type {
+    color : rgb(78,201,176);
+}
+span.tooltip {
+    position :relative;
+}
+span.tooltip > span {
+    display : none;
+    position : absolute;
+    background-color : rgb(66,66,69);
+    border : 1px solid rgb(77,77,80);
+    top : 17px;
+    left : 0px;
+    padding:10px;
+    z-index : 1000;
+    border-radius : 3px;
+}
+
+pre.linenumbers {
+    display: block;
+    color : red;
+    width : 15px;
+    border : 1px solid white;
+    height : 500px;
+    float : left;
+}
+
+pre.code {
+    display: block;
+    background-color : rgb(30,30,30);
+    color : white;
+}
+
+span:hover.tooltip > span {
+    display:table;
+}
+.namespace {
+}
+.comment {
+    color : rgb(96,139,78);
+}
+.stringliteral {
+    color : rgb(214,157,133);
+}
+.numericliteral {
+    color : rgb(184,215,140);
+}
+.type.enum {
+    color : rgb(184,215,140);
+}
